@@ -1,0 +1,144 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    overflow: hidden;
+}
+
+.card{
+    display: flex;
+    left: 20%;
+    justify-content: center;
+    align-items: center;
+    width: 5000px;
+    padding: 125px 10px;
+    box-shadow: 15px 0 35px rgba(0, 0, 0, 0.1),
+    0 -15px 35px rgba(0, 0, 0, 0.1),
+    0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.info{
+    width: 50%;
+    background-color: #fff;
+    z-index: 1;
+    padding: 35px 40px;
+    box-shadow: 15px 0 35px rgba(0, 0, 0, 0.1),
+    0 -15px 35px rgba(0, 0, 0, 0.1),
+    0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.size-container{
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.sizes{
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+}
+
+.size{
+    width: 50px;
+    height: 40px;
+    border: transparent;
+    border-radius: .5rem;
+    background-color: #9D4BFF; 
+    color: #fff; 
+    margin: 0 10px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+    font-family: 'Poppins', sans-serif;    
+}
+
+    .info{
+        padding: 20px;
+    }
+
+    
+.product-content{
+    padding: 2rem 1rem;
+    margin: right;
+}
+.product-title{
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    position: relative;
+    color: black;
+    margin: 1rem 0;
+}
+.product-title::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 80px;
+    background: #9D4BFF; 
+}
+.product-price{
+    margin: 1rem 0;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.product-price span{
+    font-weight: 400;
+}
+.product-detail h2{
+    text-transform: capitalize;
+    color: #12263a;
+    padding-bottom: 0.8rem;
+    font-family: 'Poppins', sans-serif;    
+}
+.product-detail p{
+    font-size: 1.3rem;
+    padding: 0.3rem;
+    opacity: 0.8;
+    font-family: 'Poppins', sans-serif;    
+}
+.product-detail ul{
+    margin: 1rem 0;
+    font-size: 0.9rem;
+    font-family: 'Poppins', sans-serif;    
+}
+
+.purchase-info{
+    margin: 1.5rem 0;
+}
+.purchase-info input,
+.purchase-info .btn{
+    border: 1.5px solid #ddd;
+    border-radius: 25px;
+    text-align: center;
+    padding: 0.45rem 0.8rem;
+    outline: 0;
+    margin-right: 0.2rem;
+    margin-bottom: 1rem;
+}
+.purchase-info input{
+    width: 60px;
+}
+.purchase-info .btn{
+    cursor: pointer;
+    color: #fff;
+}
